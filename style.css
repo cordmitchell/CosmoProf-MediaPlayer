@@ -1,5 +1,5 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
-@import '~fontawesome/css/all.css';
+@import '~fontawesome/css/font-awesome.min.css';
 @import './video-player.css';
 
 body {
