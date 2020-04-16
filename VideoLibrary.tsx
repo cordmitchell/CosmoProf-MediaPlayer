@@ -60,12 +60,10 @@ const videoData = [
 //  const handleChange = event => setName(event.target.value)
 //  return [state, setState]
 //}
-
-
-class VideoLibrary extends React.Component {
+class VideoLibrary extends React.Component<{currentVID}> {
   render() {
 
-let currentVID = videoData[0].videos[0];
+  let currentVID = videoData[0].videos[0];
 
     const handleClick = item => {
       this.currentVID = item.vid;
@@ -86,7 +84,7 @@ let currentVID = videoData[0].videos[0];
           <div className="playing-title">
 {videoData[0].videos[0].title}
 
-<i class="fas fa-share-alt-square"></i>
+            <i class="fa fa-share-alt" aria-hidden="true"></i>
 
             <svg class="bi bi-box-arrow-in-up" width="1.3em" height="1.3em" viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg">
     <path fill-rule="evenodd" d="M4.646 7.854a.5.5 0 00.708 0L8 5.207l2.646 2.647a.5.5 0 00.708-.708l-3-3a.5.5 0 00-.708 0l-3 3a.5.5 0 000 .708z" clip-rule="evenodd"/>
