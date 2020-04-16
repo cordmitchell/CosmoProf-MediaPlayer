@@ -1,3 +1,6 @@
-h1, p {
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import './video-player.css';
+
+body {
   font-family: Lato;
 }

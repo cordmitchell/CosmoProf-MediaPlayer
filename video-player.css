@@ -1,0 +1,64 @@
+.video-player {
+  background-color: #333;
+  padding: 1em;
+}
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+.iframe-container iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 0;
+  left: 0;
+  top: 0;
+}
+.library-container {
+  background-color: #999;
+  padding-top: 56.25%;
+  position: relative;
+  height: 100%;
+  overflow: auto;
+}
+
+
+.playing-title {
+      padding: 0.5em;
+  color: white;
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.library-collection {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 0;
+  left: 0;
+  top: 0;
+}
+.video-library {
+  color: white;
+}
+.video-library h5 {
+    padding: 0.5em;
+    background: #666;
+    color: white;
+    margin: 0;
+}
+.video-thumb {
+  margin-bottom: 0.5em;
+  display: flex;
+  align-items: center;
+  background: #aaa;
+}
+.video-title {
+  padding-left: 1em;
+  font-size: 90%;
+  padding: 0 1em;
+}

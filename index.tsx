@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
+
+import VideoLibrary from './VideoLibrary';
+
 import Hello from './Hello';
 import './style.css';
 
@@ -28,4 +31,4 @@ class App extends Component<AppProps, AppState> {
   }
 }
 
-render(<App />, document.getElementById('root'));
+render(<VideoLibrary />, document.getElementById('root'));
