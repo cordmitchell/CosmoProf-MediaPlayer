@@ -86,6 +86,8 @@ let currentVID = videoData[0].videos[0];
           <div className="playing-title">
 {videoData[0].videos[0].title}
 
+<i class="fas fa-share-alt-square"></i>
+
             <svg class="bi bi-box-arrow-in-up" width="1.3em" height="1.3em" viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg">
     <path fill-rule="evenodd" d="M4.646 7.854a.5.5 0 00.708 0L8 5.207l2.646 2.647a.5.5 0 00.708-.708l-3-3a.5.5 0 00-.708 0l-3 3a.5.5 0 000 .708z" clip-rule="evenodd"/>
     <path fill-rule="evenodd" d="M8 15a.5.5 0 00.5-.5v-9a.5.5 0 00-1 0v9a.5.5 0 00.5.5z" clip-rule="evenodd"/>
